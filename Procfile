@@ -1,1 +1,1 @@
-web: gunicorn ehfl.wsgi
+web: gunicorn --pythonpath=/ehfl --settings=ehfl/settings.py
